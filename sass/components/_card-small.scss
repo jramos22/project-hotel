@@ -4,7 +4,6 @@
   flex-wrap: wrap;
 }
 .hotels {
-  //display: inline-block;
   height: 430px;
   margin-bottom: 70px;
   width: 360px;
@@ -12,10 +11,6 @@
     width: 100%;
   }
 }
-
-/* .hotels + .hotels {
-  margin-left: 9px;
-} */
 
 .content-cardSmall {
   h3 {
@@ -37,7 +32,6 @@
 }
 /*card large*/
 .card-large {
-  //display: inline-block;
   height: 600px;
   margin-bottom: 70px;
   position: relative;

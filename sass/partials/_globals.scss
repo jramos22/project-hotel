@@ -23,13 +23,8 @@
 
 .unic {
   left: 50px;
-  //margin-top: 580px;
-  //position: absolute;
   right: 50px;
   z-index: 3;
-  @media (min-width: 375px) {
-    //margin-top: 100px;
-  }
 }
 
 .header {
@@ -42,10 +37,8 @@
 }
 
 .logo {
-  //float: left;
   margin-top: 10px;
   margin-left: 4%;
-  //width: 66%;
 }
 .contenidoCastle {
   line-height: 30px;
@@ -66,7 +59,6 @@
     color: $light;
     display: inline-block;
     margin: 0;
-    //position: absolute;
     right: 30px;
   }
 }
