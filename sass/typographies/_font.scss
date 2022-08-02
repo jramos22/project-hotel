@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+$titles: 'Poppins', sans-serif;
+$buttons: 'Poppins', sans-serif;
+$paragraph: 'Roboto', sans-serif;
+$cards: 'Rammetto One', cursive;
+
+h1 {
+  color: $lightGrey;
+  font-family: $cards;
+  font-size: 65px;
+}
+
+h2 {
+  color: $mossGreen;
+  font-family: $titles;
+  font-size: 40px;
+}
+
+h3 {
+  color: $mossGreen;
+  font-family: $titles;
+  font-size: 27px;
+}
+
+h4 {
+  color: $mossGreen;
+  font-family: $titles;
+  font-size: 20px;
+}
+
+p {
+  color: $mossGreen;
+  font-family: $paragraph;
+  font-size: 16px;
+}
+
+.h4-bedroom {
+  color: $salmon;
+}
+
+.p-bedroom {
+  color: $salmon;
+}
+
+.salmon {
+  color: $salmon;
+}
+

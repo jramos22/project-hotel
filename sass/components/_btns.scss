@@ -1,0 +1,50 @@
+button {
+  cursor: pointer;
+  font-family: $buttons;
+  font-size: 20px;
+  justify-content: center;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.nav-header {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+
+  button {
+    background-color: $navyBlue;
+    border: 1px solid $lightGrey;
+    border-radius: 25px;
+    //margin-left: 40%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    &:hover {
+      background-color: $light;
+    }
+  }
+
+  button a {
+    color: $light;
+    text-decoration: none;
+    &:hover {
+      color: $navyBlue;
+    }
+  }
+}
+
+.orange-btn {
+  background-color: $salmon;
+  border: none;
+  border-radius: 10px;
+  color: $light;
+  padding: 8px 30px;
+  &:hover {
+    background-color: $salmon-hover;
+  }
+  a {
+    color: $light;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,56 @@
+#prefooter {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.hotels {
+  //display: inline-block;
+  height: 430px;
+  margin-bottom: 70px;
+  width: 360px;
+  img {
+    width: 100%;
+  }
+}
+
+/* .hotels + .hotels {
+  margin-left: 9px;
+} */
+
+.content-cardSmall {
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    display: inline;
+  }
+
+  button {
+    margin-left: 21%;
+  }
+}
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*card large*/
+.card-large {
+  //display: inline-block;
+  height: 600px;
+  margin-bottom: 70px;
+  position: relative;
+  width: 286px;
+  img {
+    width: 100%;
+  }
+  button {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.card-large + .card-large {
+  margin-left: 9px;
+}

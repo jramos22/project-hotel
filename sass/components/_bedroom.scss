@@ -1,0 +1,72 @@
+.bedRoom {
+  background-color: $light;
+  margin-bottom: 40px;
+  width: 100%;
+
+  h4 {
+    font-weight: 500;
+    line-height: 30px;
+    width: 251px;
+  }
+
+  p {
+    float: left;
+    line-height: 30px;
+    margin-top: -86px;
+    margin-left: 279px;
+  }
+
+  .price {
+    float: left;
+    line-height: 30px;
+    margin-top: -50px;
+    margin-left: 271px;
+  }
+
+  .imageRoom {
+    border-radius: 50px 0px 0px 0px;
+    width: 100%;
+  }
+}
+
+.bedHide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+.roomList {
+  display: flex;
+  //float: left;
+  width: 100%;
+  max-width: 1198px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBedroom {
+  width: 100%;
+}
+
+.arrowRoom {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 160px;
+  display: none;
+}
+
+.cardRoom {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 1vw;
+}
+
+.hide {
+  margin-left: -67.55%;
+}

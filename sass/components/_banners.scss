@@ -1,0 +1,55 @@
+.banner {
+  background-size: cover;
+  width: 100%;
+
+  h1 {
+    display: inline-block;
+    margin: 350px auto 30px 0px;
+  }
+}
+
+#banner-index {
+  background-image: url("../../img/mini-banner-home.jpg");
+  display: inline-block;
+  text-align: center;
+
+  h2 {
+    color: $lightGrey;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+
+#banner-destinations {
+  text-align: center;
+  width: 100%;
+  h1 {
+    font-size: 35px;
+  }
+
+  background-image: url("../../img/destinations-banner.jpg");
+}
+
+#banner-sheraton {
+  background-image: url("../../img/sheraton-banner.jpg");
+}
+
+#banner-mandarinoriental {
+  background-image: url("../../img/mandarinoriental-banner.jpg");
+}
+
+#banner-hilton {
+  background-image: url("../../img/hilton-banner.jpg");
+}
+
+#banner-japan {
+  background-image: url("../../img/japan-banner.jpg");
+}
+
+#banner-newZealand {
+  background-image: url("../../img/newZealand-banner.jpg");
+}
+
+#banner-russia {
+  background-image: url("../../img/russia-banner.jpg");
+}

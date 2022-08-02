@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destiny</title>
+    <link rel="stylesheet" href="public/css/style.css">
+  </head>
+
+  <body>
+    <div class="wrapper clearfix">
+
+      <!--Header General-->
+      <div class="header clearfix">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" alt="logo-destiny"></a>
+        </div>
+        <div class="nav-header">
+          <button><a href="destination.html">Destinations</a></button>
+        </div>
+      </div>
+
+      <!--Slider-->
+      <div class="container-slide-principal">
+        <div class="container-slide clearfix">
+          <!--FLECHAS-->
+          <!--Slide #1-->
+          <div id="slider-2" class="image-slide clearfix">
+            <!--Primera imagen-->
+            <img src="img/slider-1.jpg" alt="landscape">
+          </div>
+          <!--Slide #2-->
+          <div id="slider-1" class="image-slide clearfix">
+            <!--Segunda imagen-->
+            <img src="img/slider-2.jpg" alt="landscape">
+          </div>
+          <!--Slide #3-->
+          <div id="slider-1" class="image-slide clearfix">
+            <img src="img/slider-3.jpg" alt="landscape">
+          </div>
+        </div>
+        <div class="slider-content">
+          <h1>Explore the world</h1>
+          <div class="slide-dot clearfix">
+            <button onclick="changeImageByDot(0,this)" class="dot dot-active"></button>
+            <button onclick="changeImageByDot(1,this)" class="dot"></button>
+            <button onclick="changeImageByDot(2,this)" class="dot"></button>
+          </div>
+        </div>
+      </div>
+
+
+      <!--wrapper content-->
+      <div class="wrapper-content unic clearfix">
+        <!--SLIDER-CONTENT-->
+        
+        <!--2DA EXPLORE seccion cards-->
+        <h2>The most visited destinations are here</h2>
+        <div class="container-cards">
+          <!--first card-->
+          <div class="card-large">
+            <img src="img/card-japan.jpg" alt="Japan">
+            <div>
+              <h3>Explore Japan</h3>
+              <p>3 hoteles, local flights and 2 bus providers</p>
+              <button class="orange-btn"><a href="destinationJapan.html">explore</a></button>
+            </div>
+          </div>
+          <!--segunda card-->
+          <div class="card-large">
+            <img src="img/card-newZealand.jpg" alt="New Zeland">
+            <div>
+              <h3>Explore New Zeland</h3>
+              <p>3 hoteles, local flights and 2 bus providers</p>
+              <button class="orange-btn"><a href="destinationNewZealand.html">explore</a></button>
+            </div>
+          </div>
+          <!--Tercera card-->
+          <div class="card-large">
+            <img src="img/card-russia.jpg" alt="Russia">
+            <div>
+              <h3>Explore Russia</h3>
+              <p>3 hoteles, local flights and 2 bus providers</p>
+              <button class="orange-btn"><a href="destinationRussia.html">explore</a></button>
+            </div>
+          </div>
+        </div>
+        <!--3RA seccion BANNER-->
+        <div id="banner-index" class="banner wrapper-content">
+            <h2>The destination of your dreams</h2>
+        </div>
+        <!--4TA SMALL CARDS-->
+        <h2>Staying in the most remote hotels is part of the destination</h2>
+        <!--comienza prefooter-->
+        <div id="prefooter">
+          <div class="hotels">
+            <img src="img/card-hilton.jpg" alt="Hilton Hotel">
+            <div class="content-cardSmall">
+              <h3>Hilton Hotel</h3>
+              <p>The best hotel for vacation</p>
+
+              <button class="orange-btn"><a href="hotelHilton.html">Go</a></button>
+            </div>
+          </div>
+          <div class="hotels">
+            <img src="img/card-mandarinoriental.jpg" alt="Hotel Mandarin Oriental">
+            <div class="content-cardSmall">
+              <h3>Mandarin</h3>
+              <p>The best hotel for vacation</p>
+              <button class="orange-btn"><a href="hotelMandarinoriental.html">Go</a></button>
+            </div>
+          </div>
+          <div class="hotels">
+            <img src="img/card-sheraton.jpg" alt="Sheraton Hotel">
+            <div class="content-cardSmall">
+              <h3>Sheraton</h3>
+              <p>The best hotel for vacation</p>
+              <button class="orange-btn"><a href="hotelSheraton.html">Go</a></button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--footer General-->
+    <div class="footer footer-top">
+      <p>Copyright © Jean Carlo Toruño | Jose Daniel Ramos | Karen Méndez | Vieyra Ureña</p>
+    </div>
+
+    <script src="js/slider.js"></script>
+  </body>
+</html>
